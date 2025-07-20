@@ -1,6 +1,7 @@
 # Python\_robodk\_demo
 
 ## Project Overview
+![Square Motion](images/square_motion.png)
 
 This project demonstrates how to use Python scripting with the RoboDK API to simulate robot toolpath programming for a 6-axis industrial robot. Specifically, it shows how to move the **ABB IRB 120-3/0.6** robot to follow a square shaped path in 3D space.
 
