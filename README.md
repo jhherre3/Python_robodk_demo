@@ -38,15 +38,6 @@ This is the **first exercise** in the series and focuses on foundational motion 
 
 ---
 
-
-## Simulation Output
-
-Images and video clips from the RoboDK simulation are located in the `media/` folder.
-
-> The robot safely draws a square shape in 3D space around a known target using linear TCP motion.
-
----
-
 ## Results
 
 * Square toolpath completed without collisions
