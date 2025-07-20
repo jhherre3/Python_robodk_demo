@@ -38,17 +38,6 @@ This is the **first exercise** in the series and focuses on foundational motion 
 
 ---
 
-## Folder Structure
-
-```
-Python_robodk_demo/
-├── motion_square.py       # Python script to create square path
-├── README.md              # Project documentation
-├── media/                 # Screenshots and output visuals
-└── roboDK_project.rdk     # RoboDK station (optional)
-```
-
----
 
 ## Simulation Output
 
