@@ -7,11 +7,21 @@ This project demonstrates how to use Python scripting with the RoboDK API to sim
 The **first exercise** focuses on foundational motion generation a square path in 3D space.
 ![Square Motion](images/square_motion.png)
 
-The **second exercise** demonstrates a more advanced motion a screw (helical) path showcasing a continuous spiral with 10 rotations using linear TCP control. This highlights concepts such as orientation preservation and math-based trajectory generation.
+The **second exercise** demonstrates a more advanced motion — a screw (helical) path showcasing a continuous spiral with 10 rotations using linear TCP control. This highlights concepts such as orientation preservation and math-based trajectory generation.
 ![Spiral Motion](images/spiral.png)
 
 The **final exercise** loads a real G-code file and animates the robot executing the toolpath. The G-code is parsed with Python and used to drive the ABB robot in RoboDK, simulating a CAM-to-robot workflow.
-![G-code Toolpath Execution](images/gcodestlpathgif.gif)
+
+<table>
+  <tr>
+    <td><img src="images/gcodestlpathgif.gif" alt="Robot G-code Execution" width="400"/></td>
+    <td><img src="images/printcubehole.png" alt="Printed Part Result" width="400"/></td>
+  </tr>
+  <tr>
+    <td align="center"><b>RoboDK Simulation (G-code)</b></td>
+    <td align="center"><b>Physical Print Output</b></td>
+  </tr>
+</table>
 
 ---
 
@@ -55,6 +65,7 @@ The **final exercise** loads a real G-code file and animates the robot executing
 * Orientation maintained correctly using base pose from `Target 1`
 * G-code simulation successfully executed using real print data
 * RoboDK visually confirmed full path execution and printhead animation
+* Real-world print matched simulation results
 
 ---
 
