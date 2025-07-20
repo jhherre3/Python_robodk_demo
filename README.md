@@ -7,7 +7,7 @@ This project demonstrates how to use Python scripting with the RoboDK API to sim
 The **first exercise** focuses on foundational motion generation a square path in 3D space.
 ![Square Motion](images/square_motion.png)
 
-The **second exercise** demonstrates a more advanced motion — a screw (helical) path showcasing a continuous spiral with 10 rotations using linear TCP control. This highlights concepts such as orientation preservation and math-based trajectory generation.
+The **second exercise** demonstrates a more advanced motion a screw (helical) path showcasing a continuous spiral with 10 rotations using linear TCP control. This highlights concepts such as orientation preservation and math-based trajectory generation.
 ![Spiral Motion](images/spiral.png)
 
 The **final exercise** loads a real G-code file and animates the robot executing the toolpath. The G-code is parsed with Python and used to drive the ABB robot in RoboDK, simulating a CAM-to-robot workflow.
