@@ -1,11 +1,15 @@
 # Python\_robodk\_demo
 
 ## Project Overview
-![Square Motion](images/square_motion.png)
+
 
 This project demonstrates how to use Python scripting with the RoboDK API to simulate robot toolpath programming for a 6-axis industrial robot. Specifically, it shows how to move the **ABB IRB 120-3/0.6** robot to follow a square shaped path in 3D space.
 
-This is the **first exercise** in the series and focuses on foundational motion generation and simulation.
+The **first exercise** in the series and focuses on foundational motion generation and simulation.
+![Square Motion](images/square_motion.png)
+
+In the second exercise, we demonstrate a more advanced motion type — a screw (helical) path — showcasing a continuous spiral with 10 rotations using linear TCP control. This spiral path introduces concepts of orientation preservation, math-based motion generation, and smooth 3D trajectory control. 
+![Spiral Motion](images/spiral.png)
 
 ---
 
